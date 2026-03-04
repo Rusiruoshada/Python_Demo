@@ -7,7 +7,7 @@ stringText = """
 print(stringText)
 
 exampleText = 'this is a string!'
-
+# slicing ->
 # string index start from 0 and when we gave a range its start from 0 if we gave negative values
 print(exampleText[2]) # output : i
 print(exampleText[:6]) # output :this i
