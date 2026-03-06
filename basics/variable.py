@@ -35,6 +35,14 @@ print(set(r)) # {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 print(set(range(2,11,1))) # this will start from 2 and end 10, we can specify how next number get too.
 print(set(range(2,11,2))) # {2, 4, 6, 8, 10}
 
+# assign multiple at once
+a,b,c = 5,3, 'hello'
+print(a)
+print(b)
+print(c)
 
-
-
+# LOGICAL operators
+# and, or , not -> logical operators
+# & , | , ~, ^, <<,>>  -> bitwise
+print(a>2 | b<2) 
+print(type(a>2 | b<2))
