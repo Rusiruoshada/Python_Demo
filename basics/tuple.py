@@ -19,3 +19,8 @@ print(m,m1,m2)
 
 print(34 in num) # output is it in the tuple(boolean)
 
+t = (45) # type show as int => because only 1 value in there
+t1 = (45,) # now its show tuple
+
+print(type(t))
+print(type(t1))
