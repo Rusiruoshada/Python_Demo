@@ -37,12 +37,20 @@ print(set(range(2,11,2))) # {2, 4, 6, 8, 10}
 
 # assign multiple at once
 a,b,c = 5,3, 'hello'
-print(a)
-print(b)
-print(c)
+print(a);
+print(b);
+print(c);
 
 # LOGICAL operators
 # and, or , not -> logical operators
 # & , | , ~, ^, <<,>>  -> bitwise
 print(a>2 | b<2) 
 print(type(a>2 | b<2))
+
+# variable swapping in python
+# this happen concept call tuple packing and unpacking
+# right side tuple packing(b,a -> (b,a)) then when we assign to left its unpack(a,b = [b,a])
+a,b = 6,5
+a,b = b,a
+print(a)
+print(b)
