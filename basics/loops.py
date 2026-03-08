@@ -29,6 +29,12 @@ for val in c:
 print('',end=']\n')
 # output: [2, roms, 3.2, None, True, python, ]
 
+# for loop for dict
+d = {'a':2,'b':4,'c':5,'d':0,'e':32}
+for k,v in d.items():
+    print(k,": ",v)
 
-
-
+# for loop for tuple
+e=(12,'key',123,2.3,'hello')
+for val in e:
+    print(val,end=' ,')
