@@ -54,3 +54,15 @@ a,b = 6,5
 a,b = b,a
 print(a)
 print(b)
+
+# print all the global variables
+globalVar = globals() # its show a obj that contain all the global variables even user define functions
+print(globalVar) # output: {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7390a21fcd40>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/home/local2/Edu/Projects/DevOps/python/Python_Demo/basics/variable.py', '__cached__': None, 'a': 5, 'b': 6, 'c': 'hello', 'd': 'hello welcome to o kawai koto that even worst right its beyond pathetic', 'r': range(0, 10), 'globalVar': {...}}
+
+#__name__ global variable
+# default value for __name__ is __main__
+# when we import a file its __name__ be file name not __main__ 
+# only show __main__ when we run it in same file
+# so this is useful when we want to run particular code in original file but not when we import it in other modules(files) 
+# so we can check using if __name__ == '__main__' that mean its the same file
+print(__name__)
