@@ -32,3 +32,9 @@ def info(name,**keyArgs):
     print()
 info(name='roms',age=12,address='Sri lanka',tech='python')
 
+# anonymous function (lambda)
+# to use it we have to use lambda keyword
+fun = lambda num1,num2 : num1 * num2
+print(fun(5,4))
+
+
